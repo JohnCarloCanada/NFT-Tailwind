@@ -12,8 +12,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,8 +24,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/ScreenShotProject.png)
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
