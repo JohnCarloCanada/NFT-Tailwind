@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Outfit", sans-serif;
+  }
+}
+
+@layer components {
+  .flex-components {
+    @apply flex flex-row items-center gap-x-2;
+  }
+}

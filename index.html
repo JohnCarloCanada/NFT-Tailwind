@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>NFT Component | Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header
+      class="w-full h-screen bg-veryDarkBlueMainBG flex justify-center items-center p-5"
+    >
+      <section class="w-[300px] bg-veryDarkBlueCardBG rounded-2xl p-5">
+        <div class="relative group cursor-pointer">
+          <img
+            aria-hidden="true"
+            class="rounded-xl"
+            src="./images/image-equilibrium.jpg"
+            alt="Equilibrium"
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full bg-cyan opacity-0 rounded-xl group-hover:opacity-25 transition-all duration-300 ease-in-out"
+          ></div>
+          <img
+            aria-hidden="true"
+            class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden group-hover:block transition-all duration-500 ease-in-out"
+            src="./images/icon-view.svg"
+            alt="Icon-View"
+          />
+        </div>
+        <div class="pt-4">
+          <h1 class="text-xl font-outfit font-bold text-white tracking-wide">
+            Equilibrium #3429
+          </h1>
+          <p class="mt-2 text-[.85em] font-normal text-cyan tracking-wide">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="flex justify-between text-cyan mt-2">
+            <section class="flex-components">
+              <img
+                aria-hidden="true"
+                src="./images/icon-ethereum.svg"
+                alt="Ethereum"
+              />
+              <span class="text-xs font-normal tracking-wide">0.041ETH</span>
+            </section>
+            <section class="flex-components">
+              <img
+                aria-hidden="true"
+                src="./images/icon-clock.svg"
+                alt="Clock"
+              />
+              <span class="text-[.75em] font-normal tracking-wide"
+                >3 days left</span
+              >
+            </section>
+          </div>
+          <div class="w-full bg-veryDarkBlueLine h-[1px] my-3"></div>
+          <footer class="flex items-center gap-x-3 w-fit">
+            <img
+              aria-hidden="true"
+              class="h-[30px] border border-white rounded-full"
+              src="./images/image-avatar.png"
+              alt="Image of the creator"
+            />
+            <p class="text-xs text-white font-normal tracking-wider">
+              <span class="text-cyan tracking-wider">Creation of</span>
+              Jules Wyvern
+            </p>
+          </footer>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>
